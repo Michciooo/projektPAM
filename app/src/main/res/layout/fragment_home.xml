@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/homeFragment_container"
+    tools:context=".HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/olsztyn"
+                android:src="@drawable/olsztyn"
+                android:layout_width="match_parent"
+                android:layout_height="500px"/>
+
+            <TextView
+                android:text="cos tam o olsztynie.... Więcej informacji po wcisnieciu przycisku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/olsztyn_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Wiecej informacji"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+
+            <ImageView
+                android:id="@+id/gdansk"
+                android:src="@drawable/gdansk"
+                android:layout_width="match_parent"
+                android:layout_height="500px"/>
+
+            <TextView
+                android:text="cos tam o gdansku.... Więcej informacji po wcisnieciu przycisku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/gdansk_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Wiecej informacji"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+
+            <ImageView
+                android:id="@+id/warszawa"
+                android:src="@drawable/warszawa"
+                android:layout_width="match_parent"
+                android:layout_height="500px"/>
+
+            <TextView
+                android:text="cos tam o warszawie.... Więcej informacji po wcisnieciu przycisku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/warszawa_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Wiecej informacji"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+
+            <ImageView
+                android:id="@+id/krakow"
+                android:src="@drawable/krakow"
+                android:layout_width="match_parent"
+                android:layout_height="500px"/>
+
+            <TextView
+                android:text="cos tam o krakowie.... Więcej informacji po wcisnieciu przycisku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/krakow_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Wiecej informacji"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

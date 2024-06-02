@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DescriptionFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/olsztyn_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jako miasto z ponad 600-letnią historią, Olsztyn może pochwalić się mnóstwem wyjątkowych, świetnie zachowanych zabytków. Które z nich szczególnie warto zobaczyć, odwiedzając Olsztyn? Chcielibyśmy napisać: wszystkie! Natomiast znając urlopowe realia, wybraliśmy te według nas najbardziej godne uwagi."
+                android:visibility="gone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/wysokaBrama"
+                android:text="Wysoka Brama"
+                android:textSize="25dp"
+                android:visibility="gone"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/wysokaBramaDesc"
+                android:visibility="gone"
+                android:text="Jedyna pozostała spośród trzech bram w murach obronnych otaczających miasto. Dziś Wysoka Brama jest jednym z najbardziej charakterystycznych miejsc starówki Olsztyna, będącym jednocześnie zaproszeniem do zwiedzania starego miasta. Zbudowana w stylu gotyckim, wielokrotnie modernizowana przez lata stała się wizytówką Olsztyna. Wysokość bramy wynosi aż 23 metry, dzięki czemu dumnie i monumentalnie wystaje ponad otaczające ją zabytkowe budynki starego miasta."/>
+
+            <ImageView
+                android:id="@+id/olsztyn"
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:src="@drawable/olsztyn"
+                android:visibility="gone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/zamek"
+                android:textSize="25dp"
+                android:visibility="gone"
+                android:text="Zamek Kapituły Warminskiej"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/zamekDesc"
+                android:visibility="gone"
+                android:text="Wybudowany w połowie XIV wieku Zamek Kapituły Warmińskiej jest dziś prawdziwą atrakcją dla zwiedzających. Gotycki styl, zbiory malarstwa religijnego, portretów, wyrobów konwisarskich i ludwisarskich, współczesnych grafik, bogata historia miejsca… Ale to nie wszystko – niegdyś stacjonował tu sam Mikołaj Kopernik! To wszystko sprawiło, że Zamek Kapituły Warmińskiej stał się jedną z głównych atrakcji turystycznych Olsztyna. Lubisz zwiedzać zamki? Obejrzyj także i ten!"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:src="@drawable/zkw"
+                android:visibility="gone"
+                android:id="@+id/zamekImg"/>
+
+            <TextView
+                android:id="@+id/gdansk_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="description o gdansku"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/warszawa_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="description o warszawie"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/krakow_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="description o krakowie"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
