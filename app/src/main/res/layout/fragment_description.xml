@@ -9,79 +9,273 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- olsztyn -->
 
             <TextView
                 android:id="@+id/olsztyn_description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Jako miasto z ponad 600-letnią historią, Olsztyn może pochwalić się mnóstwem wyjątkowych, świetnie zachowanych zabytków. Które z nich szczególnie warto zobaczyć, odwiedzając Olsztyn? Chcielibyśmy napisać: wszystkie! Natomiast znając urlopowe realia, wybraliśmy te według nas najbardziej godne uwagi."
-                android:visibility="gone"/>
+                android:visibility="gone" />
 
             <TextView
+                android:id="@+id/wysokaBrama"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/wysokaBrama"
                 android:text="Wysoka Brama"
                 android:textSize="25dp"
-                android:visibility="gone"/>
+                android:visibility="gone" />
+
             <TextView
+                android:id="@+id/wysokaBramaDesc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/wysokaBramaDesc"
-                android:visibility="gone"
-                android:text="Jedyna pozostała spośród trzech bram w murach obronnych otaczających miasto. Dziś Wysoka Brama jest jednym z najbardziej charakterystycznych miejsc starówki Olsztyna, będącym jednocześnie zaproszeniem do zwiedzania starego miasta. Zbudowana w stylu gotyckim, wielokrotnie modernizowana przez lata stała się wizytówką Olsztyna. Wysokość bramy wynosi aż 23 metry, dzięki czemu dumnie i monumentalnie wystaje ponad otaczające ją zabytkowe budynki starego miasta."/>
+                android:text="Jedyna pozostała spośród trzech bram w murach obronnych otaczających miasto. Dziś Wysoka Brama jest jednym z najbardziej charakterystycznych miejsc starówki Olsztyna, będącym jednocześnie zaproszeniem do zwiedzania starego miasta. Zbudowana w stylu gotyckim, wielokrotnie modernizowana przez lata stała się wizytówką Olsztyna. Wysokość bramy wynosi aż 23 metry, dzięki czemu dumnie i monumentalnie wystaje ponad otaczające ją zabytkowe budynki starego miasta."
+                android:visibility="gone" />
 
             <ImageView
                 android:id="@+id/olsztyn"
                 android:layout_width="match_parent"
                 android:layout_height="500px"
                 android:src="@drawable/olsztyn"
-                android:visibility="gone"/>
+                android:visibility="gone" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:id="@+id/zamek"
-                android:textSize="25dp"
-                android:visibility="gone"
-                android:text="Zamek Kapituły Warminskiej"/>
-            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Zamek Kapituły Warminskiej"
+                android:textSize="25dp"
+                android:visibility="gone" />
+
+            <TextView
                 android:id="@+id/zamekDesc"
-                android:visibility="gone"
-                android:text="Wybudowany w połowie XIV wieku Zamek Kapituły Warmińskiej jest dziś prawdziwą atrakcją dla zwiedzających. Gotycki styl, zbiory malarstwa religijnego, portretów, wyrobów konwisarskich i ludwisarskich, współczesnych grafik, bogata historia miejsca… Ale to nie wszystko – niegdyś stacjonował tu sam Mikołaj Kopernik! To wszystko sprawiło, że Zamek Kapituły Warmińskiej stał się jedną z głównych atrakcji turystycznych Olsztyna. Lubisz zwiedzać zamki? Obejrzyj także i ten!"/>
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wybudowany w połowie XIV wieku Zamek Kapituły Warmińskiej jest dziś prawdziwą atrakcją dla zwiedzających. Gotycki styl, zbiory malarstwa religijnego, portretów, wyrobów konwisarskich i ludwisarskich, współczesnych grafik, bogata historia miejsca… Ale to nie wszystko – niegdyś stacjonował tu sam Mikołaj Kopernik! To wszystko sprawiło, że Zamek Kapituły Warmińskiej stał się jedną z głównych atrakcji turystycznych Olsztyna. Lubisz zwiedzać zamki? Obejrzyj także i ten!"
+                android:visibility="gone" />
+
             <ImageView
+                android:id="@+id/zamekImg"
                 android:layout_width="match_parent"
                 android:layout_height="500px"
                 android:src="@drawable/zkw"
+                android:visibility="gone" />
+
+            <!-- gdansk -->
+
+            <TextView
+                android:id="@+id/dom_uphagena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dom Uphagena – Muzeum Wnętrz Mieszczańskich"
+                android:textSize="25dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/dom_uphagena_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Przechodząc przez Bramę Wyżynną, a następnie mijając Wieżę Więzienną oraz Katownię, wejdziesz na ulicę Długą, czyli najpopularniejszą z gdańskich ulic. Teraz wystarczy, że przejdziesz pod Bramą Złotą, by Twoim oczom ukazał się ciąg pięknych i barwnych kamienic. 90 metrów dalej, po prawej stronie znajduje się Dom Uphagena, czyli dawna siedziba rajcy gdańskiego Jana Uphagena."
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/dom1"
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:src="@drawable/dom1"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/dom2"
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:src="@drawable/dom2"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/dom3"
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:src="@drawable/dom3"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/fontanna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fontanna Neptuna"
+                android:textSize="25dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/fontanna_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fontanna została umiejscowiona w reprezentacyjnej części miasta i od 1633 roku stanowi źródło kolejnych legend. Najciekawsza jest chyba ta, która tłumaczy powstanie słynnej gdańskiej nalewki o nazwie Goldwasser. Według legendy, Neptuna oburzyło marnotrawstwo, którym wykazują się osoby wrzucające monety do studni. Uderzył trójzębem z wielką siłą w wodę i rozbił monety w drobne złote płatki, które zanurzone są w ziołowym likierze Goldwasser."
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/fontannaimg"
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:src="@drawable/fontannaimg"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/brama_zuraw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Brama Żuraw w Gdańsku"
+                android:textSize="25dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/brama_zuraw_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gdyby spytać turystę z zagranicy, z czym kojarzy się mu Gdańsk, prawdopodobnie w pierwszej kolejności wymieni Żurawia. Jest on nie tylko jednym z symboli miasta, ale i Polski. Ten największy i najstarszy z zachowanych dźwigów portowych średniowiecznej Europy zbudowano w latach 1442-1444. Spełniał on dwie funkcje – służył do stawiania masztów i przeładunku towarów, a jednocześnie był bramą miejską."
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/gdansk"
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:src="@drawable/gdansk"
+                android:visibility="gone" />
+
+            <!-- warszawa -->
+            <TextView
+                android:id="@+id/palac_kultury"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Palac kultury"
+                android:textSize="25dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/palac_kultury_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pałac Kultury i Nauki (PKiN) jest jednym z najbardziej charakterystycznych budynków w Warszawie, a nawet w całej Polsce. Został zbudowany w latach 1952-1955 z inicjatywy Józefa Stalina jako prezent dla polskiego narodu. Projekt budowy został zrealizowany przez zespół architektów radzieckich pod przewodnictwem Lwa Rudniewa."
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/pkw"
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:src="@drawable/pkw"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/syrenka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Syrenka warszawska"
+                android:textSize="25dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/syrenka_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:visibility="gone"
-                android:id="@+id/zamekImg"/>
+                android:text="Syrenka Warszawska, to popularny symbol i personifikacja miasta Warszawy, stolicy Polski. Legenda o syrence jest głęboko zakorzeniona w historii i kulturze Warszawy, stanowiąc integralną część tożsamości miasta. Istnieje wiele wersji legendy o syrence warszawskiej, ale najbardziej znana mówi o syrence, która przybyła nad brzeg Wisły i zakochała się w pięknym rybaku. Aby być z nim, musiała zgodzić się na ofiarę: zrezygnować ze swojego ogona i zamienić się w ludzką dziewczynę. Ich miłość była jednak krótka, gdyż rybak, zdradzając ją, przekazał jej tajemnicę mieszkańcom Warszawy. Syrenka postanowiła ukarać rybaka i zniknęła w nurtach Wisły, ale obiecała, że będzie chronić miasto od tego czasu. " />
 
-            <TextView
-                android:id="@+id/gdansk_description"
+            <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="description o gdansku"
+                android:layout_height="500px"
+                android:id="@+id/syrenka_img"
+                android:src="@drawable/warszawa"
                 android:visibility="gone"/>
 
             <TextView
-                android:id="@+id/warszawa_description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="description o warszawie"
-                android:visibility="gone"/>
+                android:textSize="25dp"
+                android:id="@+id/kible"
+                android:visibility="gone"
+                android:text="Łazienki królewskie"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text="Łazienki Królewskie mają długą i bogatą historię. Zaczęły się jako letnia rezydencja króla Stanisława Augusta Poniatowskiego. Pałac na Wyspie, jedna z głównych atrakcji Łazienek, był miejscem, w którym król urządzał  słynne obiady czwartkowe. Pomimo zniszczeń wojennych, pałac przetrwał do czasów współczesnych i dziś można podziwiać jego piękne wnętrza. Park Łazienkowy został zaprojektowany w stylu łączącym elementy ogrodu francuskiego i angielskiego. Jest również znany z licznych zabytkowych budowli, takich jak Teatr na Wyspie i Stara Pomarańczarnia."
+                android:id="@+id/kible_desc"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:id="@+id/lazienki"
+                android:visibility="gone"
+                android:src="@drawable/lazienki"/>
+                
+            <!-- krakow -->
 
             <TextView
-                android:id="@+id/krakow_description"
+                android:id="@+id/wawel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="description o krakowie"
+                android:textSize="25dp"
+                android:text="Zamek Królewski na Wawelu"
+                android:visibility="gone" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/wawel_desc"
+                android:text="Zamek Królewski na Wawelu ma ponad tysiącletnią historię, która sięga czasów średniowiecznych. Wawel był nie tylko siedzibą polskich królów, ale także ważnym centrum politycznym, religijnym i kulturalnym. Na terenie kompleksu znajdują się m.in. Zamek Królewski, Katedra na Wawelu, Zbrojownia, a także wiele innych budynków i pomników."
                 android:visibility="gone"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:id="@+id/wawel_img"
+                android:src="@drawable/krakow"
+                android:visibility="gone"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:id="@+id/kosciol"
+                android:text="Kościół Mariacki"
+                android:visibility="gone"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/kosciol_desc"
+                android:text=": Kościół Mariacki ma długą historię sięgającą XIII wieku. Pierwotna świątynia została zbudowana w stylu gotyckim, a obecny kościół jest efektem wielu rozbudów i przebudów, które miały miejsce przez wieki. Jest to jedna z najstarszych i najważniejszych świątyń Krakowa."
+                android:visibility="gone"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:id="@+id/kosciol_img"
+                android:visibility="gone"
+                android:src="@drawable/kosciol"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sukiennice"
+                android:text="Sukiennice"
+                android:visibility="gone"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sukiennice_desc"
+                android:text="Sukiennice w Krakowie są znane z charakterystycznej architektury, zwłaszcza z długiej, podcieniowej fasady, która sięga Rynku Głównego. Fasada zdobiona jest bogatymi detalami, m.in. rzeźbami, gzymsami i attykami. Wewnątrz sukiennic znajduje się długi korytarz handlowy, gdzie tradycyjnie sprzedawano tkaniny, futra, przyprawy i inne towary."
+                android:visibility="gone"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:id="@+id/sukiennice_img"
+                android:visibility="gone"
+                android:src="@drawable/sukiennice"/>
         </LinearLayout>
     </ScrollView>
 </FrameLayout>

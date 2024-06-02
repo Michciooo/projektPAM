@@ -41,16 +41,39 @@ class DescriptionFragment : Fragment() {
                 view.findViewById<ImageView>(R.id.zamekImg)
             ),
             "gdansk" to listOf(
-                view.findViewById<TextView>(R.id.gdansk_description)
-                // Dodaj inne widoki dla Gdańska, jeśli są
+                view.findViewById<TextView>(R.id.dom_uphagena),
+                view.findViewById<TextView>(R.id.dom_uphagena_desc),
+                view.findViewById<ImageView>(R.id.dom1),
+                view.findViewById<ImageView>(R.id.dom2),
+                view.findViewById<ImageView>(R.id.dom3),
+                view.findViewById<TextView>(R.id.fontanna),
+                view.findViewById<TextView>(R.id.fontanna_desc),
+                view.findViewById<ImageView>(R.id.fontannaimg),
+                view.findViewById<TextView>(R.id.brama_zuraw),
+                view.findViewById<TextView>(R.id.brama_zuraw_desc),
+                view.findViewById<ImageView>(R.id.gdansk)
             ),
             "warszawa" to listOf(
-                view.findViewById<TextView>(R.id.warszawa_description)
-                // Dodaj inne widoki dla Warszawy, jeśli są
+                view.findViewById<TextView>(R.id.palac_kultury),
+                view.findViewById<TextView>(R.id.palac_kultury_desc),
+                view.findViewById<ImageView>(R.id.pkw),
+                view.findViewById<TextView>(R.id.syrenka),
+                view.findViewById<TextView>(R.id.syrenka_desc),
+                view.findViewById<ImageView>(R.id.syrenka_img),
+                view.findViewById<TextView>(R.id.kible),
+                view.findViewById<TextView>(R.id.kible_desc),
+                view.findViewById<ImageView>(R.id.lazienki)
             ),
             "krakow" to listOf(
-                view.findViewById<TextView>(R.id.krakow_description)
-                // Dodaj inne widoki dla Krakowa, jeśli są
+                view.findViewById<TextView>(R.id.wawel),
+                view.findViewById<TextView>(R.id.wawel_desc),
+                view.findViewById<ImageView>(R.id.wawel_img),
+                view.findViewById<TextView>(R.id.kosciol),
+                view.findViewById<TextView>(R.id.kosciol_desc),
+                view.findViewById<ImageView>(R.id.kosciol_img),
+                view.findViewById<TextView>(R.id.sukiennice),
+                view.findViewById<TextView>(R.id.sukiennice_desc),
+                view.findViewById<ImageView>(R.id.sukiennice_img),
             )
         )
 
